@@ -1,0 +1,46 @@
+{
+	"name": "Princess Diana Inspired Blue Sapphire Ring with Diamond Halo",
+	"mrp": "2109",
+	"selling_price": "1898",
+	"currency":"$",
+	"discount_percent": "10",
+	"images": ["https://images-na.ssl-images-amazon.com/images/I/71qANItZ36L._UY500_.jpg"],
+	"variants": [{
+			"variant_name": "Stone Quality",
+			"available_quality": ["good", "better", ":best", "heirloom"],
+			"default_selected": "best"
+		},
+		{
+			"variant_name": "Carat Weight",
+			"available_weight": ["0.80", "1.10", "1.90", "2.49", "4.03"],
+			"default_selected": "1.10"
+		},
+		{
+			"variant_name": "Metal Type",
+			"available_metal_type": ["rose gold", "yellow gold", "white gold", "platinum"],
+			"default_selected": "white gold"
+		}
+	],
+	"sizes":[
+		{
+			"size":"3",
+			"variant_id":"1209210129"
+		},
+		{
+			"size":"5",
+			"variant_id":"1209210129"
+		},
+		{
+			"size":"7.5",
+			"variant_id":"1209210129"
+		},
+		{
+			"size":"6",
+			"variant_id":"1209210129"
+		},
+		{
+			"size":"4",
+			"variant_id":"1209210129"
+		}
+	]
+}
