@@ -21,6 +21,8 @@ export default class ProductPageLayout extends React.Component {
     }
   
     componentDidMount() {
+
+        //api call to get product data
         fetch(process.env.PUBLIC_URL+"/dummy.json")
             .then(res => res.json())
             .then(
@@ -55,11 +57,13 @@ export default class ProductPageLayout extends React.Component {
         this.setState({product_img:this.getImagesUrl(),product_selling_price:Math.floor(Math.random() * 2.5*1000) + 1,product_mrp:Math.floor(Math.random() * 2.5*1000) + 1,product_discount_percent:Math.floor(Math.random() *10)})
     }
     getImagesUrl(){
+        //api call to get updated data based on user selection and then set the response data to update the UI
         var min = Math.ceil(0);
         var max = Math.floor(3);
         return img_arr[Math.floor(Math.random() * (max - min + 1)) + min];
     }
     addToCart(){
+        //api call to add product to cart and then set the response data to update the UI
         var data={
             "carat":this.state.weight,
             "stone":this.state.quality,
