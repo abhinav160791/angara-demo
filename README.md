@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## For best experience:
+
+a. Clone this repo
+b. go to project directory
+c. run 'npm install'
+d. run npm start
+e. open mobile view in browser
+f. go to localhost:3000
+
+
 ## Available Scripts
 
 In the project directory, you can run:
